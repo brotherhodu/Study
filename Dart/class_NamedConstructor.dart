@@ -2,16 +2,33 @@
 class Player {
   // class 내의 parameters에 대한 type 선언
   final String name;
-  int xp;
+  int xp, age;
   String team;
-  int age;
 
+// Named Constructor Parameter
   Player({
     required this.name,
     required this.xp,
     required this.team,
     required this.age,
   });
+
+// Named Constructor 사용
+// colon을 쓰면 Player 클래스를 초기화 => Player 객체를 초기화!
+  // named parameter 형식
+  Player.createBluePlayer({
+    required String name,
+    required int age,
+  })  : this.age = age,
+        this.name = name,
+        this.team = 'blue',
+        this.xp = 0;
+  // positional parameter 형식
+  Player.createRedPlayer(String name, int age)
+      : this.age = age,
+        this.name = name,
+        this.team = 'red',
+        this.xp = 0;
 
   void sayHello() {
     print("Hi my name is $name");
@@ -23,18 +40,12 @@ class Player {
 // named parameter를 사용하면 각 arguments에 대한 순서는 몰라도 됨. key와 value만 쌍으로 (함수도 똑같음))
 
 void main() {
-  var player = Player(
+  var blueplayer = Player.createBluePlayer(
     name: 'eden',
-    xp: 1200,
-    team: 'blue',
     age: 30,
   );
-  player.sayHello();
-  var player2 = Player(
-    name: 'jade',
-    xp: 2500,
-    team: 'blue',
-    age: 31,
+  var redplayer = Player.createRedPlayer(
+    'eden',
+    1200,
   );
-  player2.sayHello();
 }
