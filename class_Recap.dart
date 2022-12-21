@@ -15,7 +15,7 @@ class Player {
         team = playerJson['team'];
 
   void sayHello() {
-    print("Hi my name is $name");
+    print("Hi my name is $name and I'm in the $team");
   }
 }
 
@@ -28,12 +28,12 @@ void main() {
     },
     {
       "name": "jade",
-      "team": "red",
+      "team": "blue",
       "xp": 0,
     },
     {
       "name": "yo",
-      "team": "red",
+      "team": "purple",
       "xp": 0,
     }
   ];
