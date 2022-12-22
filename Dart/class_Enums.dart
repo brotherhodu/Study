@@ -7,7 +7,7 @@ class Player {
   int xp;
   Team team;
 
- // named parameter
+  // named parameter
   Player({
     required this.name,
     required this.xp,
@@ -17,7 +17,7 @@ class Player {
   void sayHello() {
     print("Hi my name is $name");
   }
-
+}
 
 // cascade operator로 parameters 값 한 번에 변경하기
 // 코딩 삶을 편리하게 만드는 syntax sugar!
