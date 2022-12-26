@@ -1,3 +1,4 @@
+// dart에서 중요한 것이 class
 // class 내에서는 data type을 반드시 명시할 것!
 class Player {
   final String name = 'eden';
