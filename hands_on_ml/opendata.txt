@@ -1,0 +1,18 @@
+[해외]
+
+- UC얼바인 머신러닝 저장소 (http://archive.ics.uci.edu/ml)
+- 캐글 데이터셋 (http://www.kaggle.com/datasets)
+- 아마존 AWS 데이터셋 (https://registry.opendata.aws)
+- 카네기 멜론 대학교 통계학과 공개 데이터셋 저장소 ([http://lib.stat.cmu.edu/datasets/](http://lib.stat.cmu.edu/datasets/))
+- 공개 데이터 저장소가 나열되어 있는 메타포털
+    - 데이터 포털 (http://dataportals.org)
+    - 오픈 데이터 모니터 (http://opendatamonitor.eu)
+    - 퀀들 (http://quandl.com)
+
+[국내]
+
+- 공공데이터포털 ([https://www.data.go.kr/](https://www.data.go.kr/))
+- 서울열린데이터광장 ([https://data.seoul.go.kr/](https://data.seoul.go.kr/))
+- e-나라지표 ([https://www.index.go.kr/](https://www.index.go.kr/))
+- 국가통계포털 ([https://kosis.kr/index/index.do](https://kosis.kr/index/index.do))
+- 데이콘 ([https://dacon.io/](https://dacon.io/))
