@@ -25,6 +25,15 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('First app'),
+      ),
+      body: Center(
+        child: Column(
+          children: [Text('Hello'), Text('Eden'), Text('Hello')],
+        ),
+      ),
+    );
   }
 }
