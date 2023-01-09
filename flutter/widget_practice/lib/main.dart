@@ -1,35 +1,61 @@
+// ignore_for_file: prefer_const_constructors
+
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
-void main() => runApp(widget_practice());
+void main() => runApp(MyApp());
 
-class widget_practice extends StatelessWidget {
-  const widget_practice({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Charactor card',
-      home: MyCard(),
+      title: 'BBANTO',
+      home: Grade(), //Grade 커스텀 위젯 생성
     );
   }
 }
 
-class MyCard extends StatelessWidget {
-  const MyCard({super.key});
+class Grade extends StatelessWidget {
+  const Grade({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.amber[800],
       appBar: AppBar(
         title: Text('BBANTO'),
+        backgroundColor: Colors.amber[700],
         centerTitle: true,
-        backgroundColor: Colors.redAccent,
         elevation: 0.0,
       ),
-      body: Center(
+      body: Padding(
+        padding: EdgeInsets.fromLTRB(30.0, 40.0, 0.0, 0.0),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [Text("Hello"), Text("Eden"), Text("and"), Text("Jade")],
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              'NAME',
+              style: TextStyle(
+                color: Colors.white,
+                letterSpacing: 2.0,
+              ),
+            ),
+            SizedBox(
+              height: 10.0,
+            ),
+            Text(
+              'BBANTO',
+              style: TextStyle(
+                color: Colors.white,
+                letterSpacing: 2.0,
+                fontSize: 28.0,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ],
         ),
       ),
     );
