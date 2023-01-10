@@ -97,7 +97,7 @@ class Grade extends StatelessWidget {
                 SizedBox(
                   width: 10.0,
                 ),
-                Text('bald hair',
+                Text('Bald hair',
                     style: TextStyle(
                       fontSize: 16.0,
                       letterSpacing: 1.0,
@@ -110,7 +110,7 @@ class Grade extends StatelessWidget {
                 SizedBox(
                   width: 10.0,
                 ),
-                Text('impoite personality',
+                Text('Impolite personality',
                     style: TextStyle(
                       fontSize: 16.0,
                       letterSpacing: 1.0,
@@ -123,7 +123,7 @@ class Grade extends StatelessWidget {
                 SizedBox(
                   width: 10.0,
                 ),
-                Text('useless beer belly',
+                Text('Useless beer belly',
                     style: TextStyle(
                       fontSize: 16.0,
                       letterSpacing: 1.0,
