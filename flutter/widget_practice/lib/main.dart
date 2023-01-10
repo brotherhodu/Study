@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'BBANTO',
+      title: 'HOMER_APP',
       home: Grade(), //Grade 커스텀 위젯 생성
     );
   }
@@ -25,7 +25,7 @@ class Grade extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.amber[800],
       appBar: AppBar(
-        title: Text('BBANTO'),
+        title: Text('HOMER APP'),
         backgroundColor: Colors.amber[700],
         centerTitle: true,
         elevation: 0.0,
@@ -58,7 +58,7 @@ class Grade extends StatelessWidget {
               height: 10.0,
             ),
             Text(
-              'BBANTO',
+              'Homer Simpson',
               style: TextStyle(
                 color: Colors.white,
                 letterSpacing: 2.0,
@@ -70,7 +70,7 @@ class Grade extends StatelessWidget {
               height: 30.0,
             ),
             Text(
-              'BBANTO POWER LEVEL',
+              'POWER LEVEL',
               style: TextStyle(
                 color: Colors.white,
                 letterSpacing: 2.0,
@@ -80,7 +80,7 @@ class Grade extends StatelessWidget {
               height: 10.0,
             ),
             Text(
-              '14',
+              '25',
               style: TextStyle(
                 color: Colors.white,
                 letterSpacing: 2.0,
@@ -97,7 +97,7 @@ class Grade extends StatelessWidget {
                 SizedBox(
                   width: 10.0,
                 ),
-                Text('face hero tattoo',
+                Text('bald hair',
                     style: TextStyle(
                       fontSize: 16.0,
                       letterSpacing: 1.0,
@@ -110,7 +110,7 @@ class Grade extends StatelessWidget {
                 SizedBox(
                   width: 10.0,
                 ),
-                Text('fire flames',
+                Text('impoite personality',
                     style: TextStyle(
                       fontSize: 16.0,
                       letterSpacing: 1.0,
@@ -123,7 +123,7 @@ class Grade extends StatelessWidget {
                 SizedBox(
                   width: 10.0,
                 ),
-                Text('using lightsaber',
+                Text('useless beer belly',
                     style: TextStyle(
                       fontSize: 16.0,
                       letterSpacing: 1.0,
